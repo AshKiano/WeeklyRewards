@@ -1,0 +1,9 @@
+name: WeeklyRewards
+version: '${project.version}'
+main: com.ashkiano.weeklyrewards.WeeklyRewards
+api-version: '1.16'
+authors: [ AshKiano ]
+commands:
+  weekly:
+    description: Take your weekly reward
+    usage: /<command>

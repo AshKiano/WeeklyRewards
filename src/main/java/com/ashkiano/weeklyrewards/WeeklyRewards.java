@@ -8,6 +8,7 @@ public final class WeeklyRewards extends JavaPlugin {
     public void onEnable() {
         saveDefaultConfig();
         Metrics metrics = new Metrics(this, 21089);
+        this.getLogger().info("Thank you for using the WeeklyRewards plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
         getCommand("weekly").setExecutor(new WeeklyCommandExecutor(this));
     }
 
